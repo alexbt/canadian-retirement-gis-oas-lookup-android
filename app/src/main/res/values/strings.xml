@@ -8,7 +8,7 @@
     <string name="notificationTime">Daily notification time</string>
     <string name="settings_content">Settings Content</string>
     <string name="hello_world">hello</string>
-    <string name="results">Results</string>
+    <string name="results">Next: Results</string>
     <string name="infos">Infos</string>
     <string name="marital_status">Status</string>
     <string name="marital_status_option_1">GIS/OAS for single with OAS pension</string>
@@ -24,4 +24,5 @@
     <string name="this_includes_employment_revenue">This includes employment revenue, RRSP/RIFF withdrawals, CPP/RRQ</string>
     <string name="all_for_you_and_your_spousal">All for you and your Spousal</string>
     <string name="allowance">Allowance:</string>
+    <string name="next">Next</string>
 </resources>

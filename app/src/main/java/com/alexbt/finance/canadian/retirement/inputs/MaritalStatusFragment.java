@@ -88,7 +88,7 @@ public class MaritalStatusFragment extends Fragment implements RadioGroup.OnChec
 
     private void initRadioGroup() {
         SharedPreferences sharedPreferences = getContext().getSharedPreferences("com.alexbt.canadian.retirement", Context.MODE_PRIVATE);
-        int maritalStatus = sharedPreferences.getInt("marital_status", 0);
+        int maritalStatus = sharedPreferences.getInt("marital_status", 1);
         RadioGroup radioGroup = root.findViewById(R.id.rdGroup);
         RadioButton childAt = (RadioButton) radioGroup.getChildAt(maritalStatus);
         childAt.setChecked(true);

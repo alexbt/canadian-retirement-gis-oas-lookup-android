@@ -130,15 +130,17 @@
                 android:textAlignment="viewStart"
                 android:textSize="10sp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:id="@+id/button_results"
+                android:layout_marginTop="30sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30sp"
-                android:background="@android:color/transparent"
-                android:backgroundTint="@android:color/transparent"
-                android:textColor="@android:color/black"
-                android:text="@string/results" />
+                android:textSize="15sp"
+                app:cornerRadius="4dp"
+                app:strokeColor="@color/colorPrimary"
+                android:text="@string/next"
+                app:strokeWidth="2dp" />
 
         </LinearLayout>
 
