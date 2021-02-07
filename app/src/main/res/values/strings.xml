@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Canadian Pension Calculator</string>
+    <string name="log_name">CanadianPensionCalculator.log</string>
+    <string name="build_version_title">Build Version</string>
+    <string name="cache_dir">CanadianPensionCalculator</string>
+    <string name="settings">Settings</string>
+    <string name="videos">Lookup</string>
+    <string name="notificationTime">Daily notification time</string>
+    <string name="settings_content">Settings Content</string>
+    <string name="hello_world">hello</string>
+    <string name="results">Results</string>
+    <string name="infos">Infos</string>
+    <string name="marital_status">Status</string>
+    <string name="marital_status_option_1">GIS/OAS for single with OAS pension</string>
+    <string name="marital_status_option_2">GIS/OAS for spouse with OAS pension</string>
+    <string name="marital_status_option_3">GIS/OAS for spouse without OAS pension</string>
+    <string name="marital_status_option_4">GIS/OAS and Allowance for couple</string>
+    <string name="marital_status_option_5">Allowance for the survivor</string>
+    <string name="gis">GIS:</string>
+    <string name="oas">OAS:</string>
+    <string name="gis_years_delay">year(s) of delay before GIS</string>
+    <string name="oas_years_delay">year(s) of delay before OAS</string>
+    <string name="my_combined_revenue">My combined revenue is: </string>
+    <string name="this_includes_employment_revenue">This includes employment revenue, RRSP/RIFF withdrawals, CPP/RRQ</string>
+    <string name="all_for_you_and_your_spousal">All for you and your Spousal</string>
+    <string name="allowance">Allowance:</string>
+</resources>

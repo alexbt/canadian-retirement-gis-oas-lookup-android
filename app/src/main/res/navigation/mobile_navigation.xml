@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_marital_status">
+
+    <fragment
+        android:id="@+id/navigation_marital_status"
+        android:name="com.alexbt.finance.canadian.retirement.inputs.MaritalStatusFragment"
+        android:label="@string/marital_status"
+        tools:layout="@layout/fragment_infos" />
+
+    <fragment
+        android:id="@+id/navigation_infos"
+        android:name="com.alexbt.finance.canadian.retirement.inputs.InfosFragment"
+        android:label="@string/infos"
+        tools:layout="@layout/fragment_marital_status" />
+
+    <fragment
+        android:id="@+id/navigation_results"
+        android:name="com.alexbt.finance.canadian.retirement.results.ResultsFragment"
+        android:label="@string/results"
+        tools:layout="@layout/fragment_result" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.alexbt.finance.canadian.retirement.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

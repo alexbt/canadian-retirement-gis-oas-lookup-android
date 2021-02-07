@@ -1,0 +1,8 @@
+year,lower,higher,repayment rate
+#https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/payments.html
+#https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security/recovery-tax.html
+#https://www.canada.ca/en/services/benefits/publicpensions/cpp/retirement-income-calculator.html
+#https://srv111.services.gc.ca/oas/index
+2019,77580,126058,615.37,0.15
+2020,79054,128149,615.37,0.15
+2021,79845,129075,615.37,0.15
