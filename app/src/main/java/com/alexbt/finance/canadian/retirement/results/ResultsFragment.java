@@ -124,7 +124,8 @@ public class ResultsFragment extends Fragment {
         if (value.compareTo(BigDecimal.ZERO) == 0) {
             suffix = "<b>0$</b>";
         } else if (years > 0) {
-            String val = "<b>" + value.multiply(BigDecimal.valueOf(1 + (years * 0.072))).setScale(2, BigDecimal.ROUND_HALF_UP).toString() + "$</b>";
+
+            String val = "<b>" + value.multiply(BigDecimal.valueOf(Math.pow(1 + 0.072, years))).setScale(2, BigDecimal.ROUND_HALF_UP).toString() + "$</b>";
             suffix = value + "$ + (" + years + " x " + "7.2%) = " + val;
         } else {
             suffix = "<b>" + value.setScale(2, BigDecimal.ROUND_HALF_UP).toString() + "$</b>";
@@ -158,7 +159,7 @@ public class ResultsFragment extends Fragment {
                     + " x 15%) / 12 = " + finalOas;
         } else {
             if (years > 0) {
-                String finalOas = "<b>" + maxOas.multiply(BigDecimal.valueOf(1 + (years * 0.072))).setScale(2, BigDecimal.ROUND_HALF_UP) + "$</b>";
+                String finalOas = "<b>" + maxOas.multiply(BigDecimal.valueOf(Math.pow(1 + 0.072, years))).setScale(2, BigDecimal.ROUND_HALF_UP) + "$</b>";
                 suffix = maxOas + "$ + (" + years + " x " + "7.2%) = " + finalOas;
             } else {
                 suffix = "<b>" + maxOas + "$</b>";
